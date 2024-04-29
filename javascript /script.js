@@ -142,16 +142,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
-function emailSend(){
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "yousefrihani916@gmail.com",
-        Password : "EB600C1943D6171903F5F23582AFC29AE2C5",
-        To : 'yousefrihani916@gmail.com',
-        From : "yousefrihani123@gmail.com",
-        Subject : "This is the subject",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-}
